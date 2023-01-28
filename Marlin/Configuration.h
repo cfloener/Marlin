@@ -36,7 +36,8 @@
  * Advanced settings can be found in Configuration_adv.h
  */
 #define CONFIGURATION_H_VERSION 02010300
-
+#define DIAG_JUMPERS_REMOVED
+#define NO_AUTO_ASSIGN_WARNING
 //===========================================================================
 //============================= Getting Started =============================
 //===========================================================================
@@ -1535,7 +1536,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -41, -5, 0 }  //CF
+#define NOZZLE_TO_PROBE_OFFSET { -25, -25, 0 }  //CF
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
